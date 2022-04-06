@@ -1,7 +1,7 @@
 package listasencadeadas;
 
 public class ListaDuplamenteLigada {
-	String nome;
+	Pessoa informacao;
 	ListaDuplamenteLigada anterior;
 	ListaDuplamenteLigada proximo;
  
