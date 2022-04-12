@@ -5,5 +5,6 @@ public class Pessoa {
 	Pessoa ancestral;
 	Pessoa filhoA;
 	Pessoa filhoB;
+	Pessoa pai;
 
 }

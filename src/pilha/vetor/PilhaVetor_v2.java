@@ -1,6 +1,6 @@
 package pilha.vetor;
 
-public class PilhaVetor {
+public class PilhaVetor_v2 {
 	public static int[] pilha=new int[5];
 	public static int topo=0;
 	 
