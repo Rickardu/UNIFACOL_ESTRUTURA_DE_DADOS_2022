@@ -24,14 +24,20 @@ public class MainListaSimplesPessoa {
 		lsp.add(lsp, lsp2);
 		//NEXT
 		imprimir(lsp);
+		System.out.println(">>print1");
 		ListaSimplesPessoa lsp3=new ListaSimplesPessoa();
 		lsp3.informacao = new Pessoa("c","4");
 		//INSERT
-		lsp.insert(lsp, lsp1, lsp3);		
+		lsp.insert(lsp, lsp1, lsp3);
+		
 		imprimir(lsp);
+		System.out.println(">>print2");
 		//DELETE
-		lsp.delete(lsp, lsp1.informacao);
+		Pessoa  lsp1_pessoa  = new Pessoa("B","2");
+		System.out.println(">>LE"+lsp1.informacao+" - "+lsp1_pessoa);
+		lsp.delete(lsp, lsp1_pessoa);
 		imprimir(lsp);
+		System.out.println(">>print3");
 		//INFO
 		System.out.println("Nome:"+lsp.info().nome);
 	}
